@@ -1,0 +1,118 @@
+
+import { Asset } from "../types/asset-types";
+
+// US Market Indices
+export const usMarketIndices: Asset[] = [
+  {
+    symbol: 'SPX',
+    name: 'S&P 500',
+    type: 'index',
+    currentPrice: 5123.21,
+    priceChange: 15.67,
+    priceChangePercent: 0.31,
+    market: 'NYSE',
+  },
+  {
+    symbol: 'DJIA',
+    name: 'Dow Jones Industrial Average',
+    type: 'index',
+    currentPrice: 38428.92,
+    priceChange: 87.13,
+    priceChangePercent: 0.23,
+    market: 'NYSE',
+  },
+  {
+    symbol: 'NDAQ',
+    name: 'Nasdaq Composite',
+    type: 'index',
+    currentPrice: 16142.64,
+    priceChange: 72.81,
+    priceChangePercent: 0.45,
+    market: 'NASDAQ',
+  },
+  {
+    symbol: 'RUT',
+    name: 'Russell 2000',
+    type: 'index',
+    currentPrice: 2079.43,
+    priceChange: 7.89,
+    priceChangePercent: 0.38,
+    market: 'NASDAQ',
+  },
+  {
+    symbol: 'VIX',
+    name: 'CBOE Volatility Index',
+    type: 'index',
+    currentPrice: 14.23,
+    priceChange: -0.43,
+    priceChangePercent: -2.93,
+    market: 'NASDAQ',
+  },
+];
+
+// Global Indices
+export const globalMarketIndices: Asset[] = [
+  {
+    symbol: 'FTSE',
+    name: 'FTSE 100',
+    type: 'index',
+    currentPrice: 8243.72,
+    priceChange: 32.14,
+    priceChangePercent: 0.39,
+    market: 'OTC',
+  },
+  {
+    symbol: 'DAX',
+    name: 'DAX Performance-Index',
+    type: 'index',
+    currentPrice: 18364.51,
+    priceChange: 87.62,
+    priceChangePercent: 0.48,
+    market: 'OTC',
+  },
+  {
+    symbol: 'CAC',
+    name: 'CAC 40',
+    type: 'index',
+    currentPrice: 8132.64,
+    priceChange: 34.27,
+    priceChangePercent: 0.42,
+    market: 'OTC',
+  },
+  {
+    symbol: 'N225',
+    name: 'Nikkei 225',
+    type: 'index',
+    currentPrice: 38543.21,
+    priceChange: 187.43,
+    priceChangePercent: 0.49,
+    market: 'OTC',
+  },
+  {
+    symbol: 'HSI',
+    name: 'Hang Seng Index',
+    type: 'index',
+    currentPrice: 17654.32,
+    priceChange: 167.54,
+    priceChangePercent: 0.96,
+    market: 'OTC',
+  },
+  {
+    symbol: 'SSEC',
+    name: 'Shanghai Composite Index',
+    type: 'index',
+    currentPrice: 3054.23,
+    priceChange: 12.43,
+    priceChangePercent: 0.41,
+    market: 'OTC',
+  },
+  {
+    symbol: 'BVSP',
+    name: 'Bovespa Index',
+    type: 'index',
+    currentPrice: 127543.21,
+    priceChange: 876.43,
+    priceChangePercent: 0.69,
+    market: 'OTC',
+  },
+];

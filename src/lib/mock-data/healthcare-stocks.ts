@@ -1,0 +1,78 @@
+
+import { Asset } from "../types/asset-types";
+
+// US Healthcare Stocks
+export const healthcareStocks: Asset[] = [
+  {
+    symbol: 'JNJ',
+    name: 'Johnson & Johnson',
+    type: 'stock',
+    currentPrice: 151.96,
+    priceChange: -0.34,
+    priceChangePercent: -0.22,
+    market: 'NYSE',
+  },
+  {
+    symbol: 'PFE',
+    name: 'Pfizer Inc.',
+    type: 'stock',
+    currentPrice: 27.45,
+    priceChange: -0.12,
+    priceChangePercent: -0.44,
+    market: 'NYSE',
+  },
+  {
+    symbol: 'MRK',
+    name: 'Merck & Co., Inc.',
+    type: 'stock',
+    currentPrice: 131.75,
+    priceChange: 1.24,
+    priceChangePercent: 0.95,
+    market: 'NYSE',
+  },
+  {
+    symbol: 'ABT',
+    name: 'Abbott Laboratories',
+    type: 'stock',
+    currentPrice: 111.23,
+    priceChange: 0.67,
+    priceChangePercent: 0.61,
+    market: 'NYSE',
+  },
+  {
+    symbol: 'UNH',
+    name: 'UnitedHealth Group Inc.',
+    type: 'stock',
+    currentPrice: 527.33,
+    priceChange: 3.45,
+    priceChangePercent: 0.66,
+    market: 'NYSE',
+  },
+  {
+    symbol: 'MDT',
+    name: 'Medtronic plc',
+    type: 'stock',
+    currentPrice: 82.45,
+    priceChange: -0.21,
+    priceChangePercent: -0.25,
+    market: 'NYSE',
+  },
+  {
+    symbol: 'AMGN',
+    name: 'Amgen Inc.',
+    type: 'stock',
+    currentPrice: 314.92,
+    priceChange: 2.14,
+    priceChangePercent: 0.68,
+    market: 'NYSE',
+  },
+  {
+    symbol: 'CVS',
+    name: 'CVS Health Corporation',
+    type: 'stock',
+    currentPrice: 59.83,
+    priceChange: 0.37,
+    priceChangePercent: 0.62,
+    market: 'NYSE',
+  },
+];

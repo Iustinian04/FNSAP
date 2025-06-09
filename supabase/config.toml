@@ -1,0 +1,5 @@
+
+project_id = "zrcrsyuuydixfjwaaoxd"
+
+[functions.fetch-financial-data]
+# verify_jwt = false # Uncomment if the function should be callable without authentication
